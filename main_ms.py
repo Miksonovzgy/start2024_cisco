@@ -92,7 +92,9 @@ root.geometry("1920x1080")
 # Create a canvas widget and info box
 canvas_width, canvas_height = 1920, 1080
 canvas = tk.Canvas(root, width=canvas_width, height=canvas_height)
-canvas.pack(side='left', fill='y', expand=False)
+# canvas.pack(side='left', fill='y', expand=False)
+canvas.pack(side='left', fill='both', expand=True)
+
 info_box = tk.Label(root, text="Hover over a room", justify='left', bg='lightgrey', anchor='nw')
 info_box.pack(side='right', fill='both', expand=True)
 
