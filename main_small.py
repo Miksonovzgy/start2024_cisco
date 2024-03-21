@@ -1,11 +1,7 @@
 import tkinter as tk
 import json
 
-def update_room_data():
-    global room_data
-    room_data = room_data2
-
-
+i = 0
 room_data = {
     "Office 4": {"Temperature (Celsius)": 22, "Humidity (%)": 45, "Air Quality Index": 30, "People Count": 5},
     "Office 3": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
@@ -20,9 +16,10 @@ room_data = {
     "Meeting Room": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
 }
 
-room_data2 = {
+room_data2 = [
+    {
     "Office 4": {"Temperature (Celsius)": 22, "Humidity (%)": 45, "Air Quality Index": 30, "People Count": 5},
-    "Office 3": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 3": {"Temperature (Celsius)": 25, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
     "Office 2": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
     "Office 1": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
     "Reception": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
@@ -32,9 +29,68 @@ room_data2 = {
     "Toilets": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
     "Kitchen": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
     "Meeting Room": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
-
-    # Add other rooms data from your JSON file here...
-}
+},
+{"Office 4": {"Temperature (Celsius)": 22, "Humidity (%)": 45, "Air Quality Index": 30, "People Count": 5},
+    "Office 3": {"Temperature (Celsius)": 60, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 2": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 1": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Reception": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 5": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 6": {"Temperature (Celsius)": 50, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 7": {"Temperature (Celsius)": 39, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Toilets": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Kitchen": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Meeting Room": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+},
+{"Office 4": {"Temperature (Celsius)": 22, "Humidity (%)": 45, "Air Quality Index": 30, "People Count": 5},
+    "Office 3": {"Temperature (Celsius)": 60, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 2": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 1": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Reception": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 5": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 6": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 7": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Toilets": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Kitchen": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Meeting Room": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+},
+{"Office 4": {"Temperature (Celsius)": 36, "Humidity (%)": 45, "Air Quality Index": 30, "People Count": 5},
+    "Office 3": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 2": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 1": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Reception": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 5": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 6": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 7": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Toilets": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Kitchen": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Meeting Room": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+},
+{"Office 4": {"Temperature (Celsius)": 22, "Humidity (%)": 45, "Air Quality Index": 30, "People Count": 5},
+    "Office 3": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 2": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 1": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Reception": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 5": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 6": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 7": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Toilets": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Kitchen": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Meeting Room": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+},
+{"Office 4": {"Temperature (Celsius)": 22, "Humidity (%)": 45, "Air Quality Index": 30, "People Count": 5},
+    "Office 3": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 2": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 1": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Reception": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 5": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 6": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Office 7": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Toilets": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Kitchen": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+    "Meeting Room": {"Temperature (Celsius)": 21, "Humidity (%)": 50, "Air Quality Index": 25, "People Count": 1},
+},
+]
 
 
 class Room:
@@ -69,18 +125,28 @@ class Room:
     def update_color_by_temp(self):
         room_info = room_data.get(self.name, {})
         temp = room_info.get('Temperature (Celsius)', 0)
-        if temp > 35:
-            self.canvas.itemconfig(self.rect, fill='red')
+        if temp > 40:
+            self.canvas.itemconfig(self.rect, fill='black')
+        elif temp > 35:
+            self.canvas.itemconfig(self.rect, fill='red') 
+        elif temp > 30:
+            self.canvas.itemconfig(self.rect, fill='orange')
+        elif temp > 25:
+            self.canvas.itemconfig(self.rect, fill='yellow')
         else:
             self.canvas.itemconfig(self.rect, fill=self.default_color)
 
-    # Existing on_hover and on_leave methods remain the same
+# Existing on_hover and on_leave methods remain the same
 
 def update_room_data():
     global room_data
-    room_data = room_data2
+    global i
+    i = i+1
+    room_data = room_data2[i]
+    print(room_data["Office 6"])
     for room in rooms:  # Assume 'rooms' is a list of all Room instances
         room.update_color_by_temp()
+    root.after(2000, update_room_data)  # Reschedule event after 2 seconds (2000 milliseconds)
 
 # Create the main window
 root = tk.Tk()
@@ -134,6 +200,6 @@ rooms = [
 
 ]
 # Schedule the room_data update after 10000 milliseconds (10 seconds)
-root.after(10000, update_room_data)
+root.after(2000, update_room_data)
 
 root.mainloop()
