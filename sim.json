@@ -1,0 +1,143 @@
+[
+{
+    "Device MAC Address": "A0:F8:49:6B:52:10",
+    "Temperature (Celsius)": 22.0,
+    "Humidity (%)": 40,
+    "Air Quality Index": 50.0,
+    "People Count": 5
+},
+{
+    "Device MAC Address": "00:A7:42:53:53:F6",
+    "Temperature (Celsius)": 21.5,
+    "Humidity (%)": 45,
+    "Air Quality Index": 40.0,
+    "People Count": 10
+},
+{
+    "Device MAC Address": "00:77:8D:90:A3:48",
+    "Temperature (Celsius)": 23.0,
+    "Humidity (%)": 35,
+    "Air Quality Index": 30.0,
+    "People Count": 8
+},
+{
+    "Device MAC Address": "BC:92:6B:A1:C4:D8",
+    "Temperature (Celsius)": 20.0,
+    "Humidity (%)": 50,
+    "Air Quality Index": 60.0,
+    "People Count": 3
+},
+{
+    "Device MAC Address": "D4:3B:04:11:F6:22",
+    "Temperature (Celsius)": 22.5,
+    "Humidity (%)": 42,
+    "Air Quality Index": 35.0,
+    "People Count": 12
+},
+{
+    "Device MAC Address": "3A:F2:C2:4A:5E:4D",
+    "Temperature (Celsius)": 24.0,
+    "Humidity (%)": 38,
+    "Air Quality Index": 45.0,
+    "People Count": 6
+}
+,
+{
+    "Device MAC Address": "E4:17:D8:71:35:F3",
+    "Temperature (Celsius)": 21.0,
+    "Humidity (%)": 46,
+    "Air Quality Index": 55.0,
+    "People Count": 4
+},
+{
+    "Device MAC Address": "8A:5B:45:6D:3F:22",
+    "Temperature (Celsius)": 23.5,
+    "Humidity (%)": 40,
+    "Air Quality Index": 48.0,
+    "People Count": 7
+},
+{
+    "Device MAC Address": "FA:8D:78:2E:44:B3",
+    "Temperature (Celsius)": 19.5,
+    "Humidity (%)": 52,
+    "Air Quality Index": 50.0,
+    "People Count": 2
+},
+{
+    "Device MAC Address": "5E:FF:56:A2:2B:17",
+    "Temperature (Celsius)": 22.8,
+    "Humidity (%)": 43,
+    "Air Quality Index": 42.0,
+    "People Count": 9
+},
+{
+"Device MAC Address": "A0:F8:49:6B:52:10",
+"Temperature (Celsius)": 23.2,
+"Humidity (%)": 38,
+"Air Quality Index": 45.0,
+"People Count": 4
+},
+{
+"Device MAC Address": "00:A7:42:53:53:F6",
+"Temperature (Celsius)": 22.0,
+"Humidity (%)": 50,
+"Air Quality Index": 38.0,
+"People Count": 9
+},
+{
+"Device MAC Address": "00:77:8D:90:A3:48",
+"Temperature (Celsius)": 24.5,
+"Humidity (%)": 33,
+"Air Quality Index": 28.0,
+"People Count": 7
+},
+{
+"Device MAC Address": "BC:92:6B:A1:C4:D8",
+"Temperature (Celsius)": 21.0,
+"Humidity (%)": 48,
+"Air Quality Index": 62.0,
+"People Count": 2
+},
+{
+"Device MAC Address": "D4:3B:04:11:F6:22",
+"Temperature (Celsius)": 23.0,
+"Humidity (%)": 40,
+"Air Quality Index": 37.0,
+"People Count": 11
+},
+{
+"Device MAC Address": "3A:F2:C2:4A:5E:4D",
+"Temperature (Celsius)": 25.0,
+"Humidity (%)": 36,
+"Air Quality Index": 43.0,
+"People Count": 5
+},
+{
+"Device MAC Address": "E4:17:D8:71:35:F3",
+"Temperature (Celsius)": 20.5,
+"Humidity (%)": 47,
+"Air Quality Index": 53.0,
+"People Count": 3
+},
+{
+"Device MAC Address": "8A:5B:45:6D:3F:22",
+"Temperature (Celsius)": 24.0,
+"Humidity (%)": 42,
+"Air Quality Index": 46.0,
+"People Count": 8
+},
+{
+"Device MAC Address": "FA:8D:78:2E:44:B3",
+"Temperature (Celsius)": 20.2,
+"Humidity (%)": 54,
+"Air Quality Index": 52.0,
+"People Count": 1
+},
+{
+"Device MAC Address": "5E:FF:56:A2:2B:17",
+"Temperature (Celsius)": 23.5,
+"Humidity (%)": 45,
+"Air Quality Index": 44.0,
+"People Count": 10
+}
+]
